@@ -1,4 +1,4 @@
-package com.flightnetwork.ticketbooking.discountService;
+package com.flightnetwork.ticketbooking.discountService.utils;
 
 import java.math.BigDecimal;
 

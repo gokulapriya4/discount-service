@@ -30,8 +30,10 @@ dependencies {
 
 	compile("org.postgresql:postgresql")
 	compile("org.flywaydb:flyway-core")
+	compile("com.fasterxml.jackson.dataformat:jackson-dataformat-csv")
 
 	compileOnly("org.projectlombok:lombok:1.18.2")
-	
+
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

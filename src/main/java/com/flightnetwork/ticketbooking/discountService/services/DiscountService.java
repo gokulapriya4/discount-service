@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.List;
 
-import static com.flightnetwork.ticketbooking.discountService.MathUtil.percentageOf;
+import static com.flightnetwork.ticketbooking.discountService.utils.MathUtil.percentageOf;
 
 @Service
 public class DiscountService {
