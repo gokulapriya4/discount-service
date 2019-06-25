@@ -27,7 +27,7 @@ public class DiscountService {
     return new DiscountedBill(userType, amount, finalBillAmount);
   }
 
-  public BigDecimal amountWithinTheSlab(BigDecimal amount, DiscountSlab discountSlab) {
+  private BigDecimal amountWithinTheSlab(BigDecimal amount, DiscountSlab discountSlab) {
     BigDecimal endAmountFallingInSlab = amount.min(discountSlab.getEndAmount());
     return endAmountFallingInSlab.subtract(discountSlab.getStartAmount());
   }
