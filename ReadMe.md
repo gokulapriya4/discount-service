@@ -15,3 +15,6 @@ Steps for Local development:
 Steps to build and execute tests:
  * Ensure the correctness of postgres credentials in application.yml file in test folde
  * Run the `test.sh` file
+ 
+ Note to Interviewer:
+    Kindly run `bash test.sh` file
