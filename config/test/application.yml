@@ -7,7 +7,7 @@ spring:
     password: postgres
 
   datasource:
-    name: discountDev
+    name: discountTest
     url: jdbc:postgresql://localhost:5432/discount_service_test
     username: postgres
     password: postgres

@@ -15,6 +15,7 @@ public class DevelopmentService {
   private DiscountSlabsRepository discountSlabsRepository;
 
   public void uploadDiscountSlabs(InputStream inputStream) {
+    discountSlabsRepository.deleteAll();
     discountSlabsRepository.saveAll(CSVUtil.loadObjectList(DiscountSlab.class, inputStream));
   }
 }
